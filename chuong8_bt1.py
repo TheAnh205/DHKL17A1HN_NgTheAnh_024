@@ -1,0 +1,8 @@
+a = eval(input("Nhập giá trị của a: "))
+b = eval(input("Nhập giá trị của b: "))
+c = eval(input("Nhập giá trị của c: "))
+d = eval(input("Nhập giá trị của d: "))
+max_value = max(a, b, c, d)
+min_value = min(a, b, c, d)
+print("Số lớn nhất là:", max_value)
+print("Số nhỏ nhất là:", min_value)

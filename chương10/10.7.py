@@ -1,0 +1,8 @@
+s=input("Nhập chuỗi s: ")
+s_sub=input("Nhập chuỗi con s_sub: ")
+s_find=input("Nhập chuỗi tìm s_find: ")
+s_replace=input("Nhập chuỗi thay thế s_replace: ")
+print("Chuỗi sau khi kí tự đầu viết hoa: ",s.capitalize())
+print("Chuỗi sau khi loại bỏ khoảng trắng ở đầu cuối:",s.strip())
+print("Số lần s_sub xuất hiện trong s: ",s.count(s_sub))
+print("Chuỗi s sau khi tìm kiếm và thay thế: ",s.replace(s_find,s_replace))
